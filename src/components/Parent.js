@@ -8,7 +8,7 @@ function Parent() {
   return (
     <div className="parent">
       <h1>Parent Component</h1>
-      <p>Parent Input Value: {parentInputValue}</p>
+      <p>{parentInputValue}</p>
       <Child childInputValue={childInputValue} setChildInputValue={setChildInputValue} />
       <input
         type="text"
